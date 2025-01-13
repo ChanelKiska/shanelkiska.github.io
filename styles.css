@@ -74,6 +74,21 @@ main {
 .post img {
     max-width: 100%; /* Ограничение размера изображения */
     border-radius: 10px; /* Закругленные углы для изображений */
+
+    .like-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.heart.grey {
+    color: grey;
+}
+
+.heart.red {
+    color: red;
+}
 }
 
 footer {
